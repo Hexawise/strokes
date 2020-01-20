@@ -3,9 +3,9 @@
   :url "https://github.com/Hexawise/strokes"
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
-  :dependencies [[org.clojure/clojure "1.10.1"]
-                 [org.clojure/clojurescript "1.10.597"]
-                 [hexawise/mrhyde "0.6.0-alpha1"]]
+  :dependencies [[org.clojure/clojure "1.10.1" :scope "provided"]
+                 [org.clojure/clojurescript "1.10.597" :scope "provided"]
+                 [hexawise/mrhyde "0.6.0-alpha2"]]
   :min-lein-version "2.9.1"
   :source-paths ["src/cljs"]
 
