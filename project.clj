@@ -1,4 +1,4 @@
-(defproject hexawise/strokes "0.6.0-alpha1"
+(defproject hexawise/strokes "0.6.0-alpha2"
   :description "strokes: d3 from clojurescript"
   :url "https://github.com/Hexawise/strokes"
   :license {:name "Eclipse Public License"
