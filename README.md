@@ -32,7 +32,7 @@ Online examples:
 To use strokes from your ClojureScript project, 
 add this dependency to your `project.clj`:
 
-    [net.drib/strokes "0.5.1"]
+    [hexawise/strokes "0.6.0-alpha1"]
 
 Or to get started in this repo, try [venn-simple](examples/venn-simple) 
 or any of the other examples. Simply 
@@ -43,3 +43,11 @@ lein cljsbuild auto
 ```
 
 Then open public/hello.html to see [three circles](http://bl.ocks.org/4994892) in your web browser. Then to get hacking, you can then edit the [venn-simple source file](examples/venn-simple/src/cljs/venn-simple.cljs), save, and refresh your browser to see the changes.
+
+## Release
+
+Release to [Clojars](https://clojars.org/hexawise/mrhyde) with:
+
+```console
+lein deploy clojars
+```

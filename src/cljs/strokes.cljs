@@ -1,4 +1,4 @@
-(ns strokes
+(ns strokes.core
   (:require [mrhyde.core :as mrhyde]
             [mrhyde.funpatcher
                :refer [patch-tostring-hydearray-is-array

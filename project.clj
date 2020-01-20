@@ -1,15 +1,15 @@
-(defproject net.drib/strokes "0.5.2-SNAPSHOT"
+(defproject hexawise/strokes "0.6.0-alpha1"
   :description "strokes: d3 from clojurescript"
-  :url "https://github.com/dribnet/strokes"
+  :url "https://github.com/Hexawise/strokes"
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
-  :dependencies [[org.clojure/clojure "1.7.0"]
-                 [org.clojure/clojurescript "1.7.145"]
-                 [net.drib/mrhyde "0.5.4-SNAPSHOT"]]
-  :min-lein-version "2.0.0"
+  :dependencies [[org.clojure/clojure "1.10.1"]
+                 [org.clojure/clojurescript "1.10.597"]
+                 [hexawise/mrhyde "0.6.0-alpha1"]]
+  :min-lein-version "2.9.1"
   :source-paths ["src/cljs"]
 
-  :plugins [[lein-cljsbuild "0.3.3"]]
+  :plugins [[lein-cljsbuild "1.1.7"]]
 
   :cljsbuild {:builds [{:source-paths ["src/cljs"]
                         :jar true}
